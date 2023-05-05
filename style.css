@@ -1,6 +1,7 @@
 .body {
     margin: 0px;
 }
+/* Header Section */
 .container1 {
     background-color: #1F2937;
     color: white;
@@ -18,55 +19,48 @@
     font-size: 24px;
     height: 150px
 }
-
 .headerlogo {
     display: flex;
     margin-left: 190px;
     flex: 1;
 }
-
 .headerlink1 {
     margin-left: auto;
 }
-
 .headerlink1,
 .headerlink2 {
     margin-right:20px;
     font-size: 18px;
 }
-
 .headerlink3 {
     font-size: 18px;
     margin-right: 190px;
 }
-
+/* Below header, section 1-2 with text and image */
 .container1-2 {
     display: flex;
 }
-
 img {
     height: 220px;
     width: 520px;
     margin-right: 190px;
 }
-
+/* Text part of section 1 */
 .awesome {
     height: 200px;
     width: 550px;
     margin-left: 190px;
 }
-
 .awesome1 {
     font-size: 48px;
     font-weight: bolder;
 }
-
 .container1 p {
     font-size: 18px;
     padding-right: 60px;
     margin-top: 0px;
 }
-
+/* Sign up button in section 1 */
 .signupbutton1 {
     background-color: #3882F6;
     font-family: sans-serif;
@@ -79,25 +73,22 @@ img {
     border: 0;
     color: white;
 }
-
+/* Section 2 */
 .container2 {
     background-color: white;
     height: 520px;
     width: 1400px;
     font-family: sans-serif;
 }
-
 .container2header {
     height: 100px;
     width: 1400px;
     text-align: center;
 }
-
 .container2header p {
     font-size: 36px;
     font-weight: bolder;
 }
-
 .container2images,
 .container2subtexts {
     height: 170px;
@@ -108,7 +99,6 @@ img {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
 .container2image1,
 .container2image2,
 .container2image3,
@@ -118,7 +108,6 @@ img {
     border: 4px solid #3882F6;
     border-radius: 8px;
 }
-
 .container2subtext1,
 .container2subtext2,
 .container2subtext3,
@@ -127,13 +116,13 @@ img {
     width: 150px;
     font-family: sans-serif;
 }
-
+/* Section 3 */
 .container3 {
     background-color: #E5E7EB;
     height: 520px;
     width: 1440px;
 }
-
+/* Quote styling */
 .quote {
     padding-top: 130px;
     padding-left: 330px;
@@ -141,19 +130,18 @@ img {
     font-size: 36px;
     font-weight: lighter;
 }
-
 .quoteauthor {
     padding-top: 10px;
     padding-left: 870px;
     font-size: 24px;
     font-weight: bold;
 }
-
+/* Section 4 */
 .container4 {
     width: 1440px;
     height:300px;
 }
-
+/* Blue sign up box */
 .signupcontainer {
     height: 200px;
     background-color: #3882F6;
@@ -170,12 +158,11 @@ img {
     font-size: 18px;
     color: white;
 }
-
 .signupheader {
     margin-bottom: 5px;
     font-size: 22px;
 }
-
+/* Button inside sign up box */
 .signupbutton2 {
     width: 140px;
     height:40px;
@@ -184,7 +171,7 @@ img {
     color: white;
     border: 1px solid white;
 }
-
+/* Footer */
 .container5 {
     height: 150px;
     width: 1460px;
